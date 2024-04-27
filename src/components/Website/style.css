@@ -1,0 +1,35 @@
+.website--item
+{
+  display: flex;
+  padding-left: 20px;
+  overflow-x: scroll;
+  margin-bottom: 30px;
+}
+
+.website--item--2
+{
+  display: flex;
+  flex-direction: row-reverse;
+  overflow-x: scroll;
+  padding-left: 20px;
+}
+
+.website--grid
+{
+  gap: 20px;
+}
+
+.website--item::-webkit-scrollbar
+{
+  display: none;
+}
+
+.website--item--2::-webkit-scrollbar
+{
+  display: none;
+}
+
+.website--container
+{
+  background-color: white;
+}
